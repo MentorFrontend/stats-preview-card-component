@@ -47,7 +47,6 @@ main.card {
   align-items: center;
   text-align: center;
   gap: 1.5rem;
-  width: calc(100%-20rem);
 }
 
 .illustration {
@@ -99,7 +98,7 @@ main.card {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.65rem;
   text-align: center;
   background-color: var(--accent);
   width: 100vw;
@@ -110,7 +109,6 @@ main.card {
 
 @media (min-width: 50rem) {
   main.card {
-    /* flex-direction: row; */
     flex-direction: row-reverse;
     width: 50rem;
     border-radius: 1rem;
@@ -137,8 +135,6 @@ main.card {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
     gap: 1.5rem;
   }
 
