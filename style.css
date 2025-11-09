@@ -138,16 +138,13 @@ main.card {
     gap: 1.5rem;
   }
 
-  .stats {
-    font-size: large;
-  }
-
   .description {
     font-size: small;
   }
 
   .stats {
     flex-direction: row;
+    font-size: large;
     gap: 2rem;
   }
 
